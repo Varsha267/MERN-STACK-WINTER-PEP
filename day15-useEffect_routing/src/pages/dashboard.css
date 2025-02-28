@@ -1,0 +1,11 @@
+.dashboard-container {
+    background-color: yellow;
+    padding: 1.5rem;
+    margin: 1.5rem auto;
+    border-radius: 1rem;
+    max-width: 500px;
+}
+
+.dashboard-container > h1 {
+    color: red;
+}

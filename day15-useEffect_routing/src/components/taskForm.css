@@ -1,0 +1,20 @@
+.task-form {
+    background-color: rgba(0, 255, 0, 0.574);
+    padding: 1.5rem;
+    margin: 1.5rem auto;
+    border-radius: 1rem;
+    max-width: 400px;
+}
+
+.task-form > h3 {
+    color: brown;
+}
+
+.form-input-container {
+    display: flex;
+    gap: 1rem;
+    border: 1px solid darkblue;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}

@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card {
+  /* border: 0.1px solid black; */
+  padding: 1rem;
+  border-radius: 0.4rem;
+  background-color: floralwhite;
+  box-shadow: 0px 0px 5px 0.1px rgb(180, 180, 180);
+}
+
+.tittle {
+  color: brown;
+}
+
+.date {
+  padding-bottom: 0.7rem;
+  font-size: 14px;
+}
+
+.description {
+  padding-bottom: 0.3rem;
+}
+
+.Nav {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.element {
+  color: blue;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Nav2 {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+.button {
+  background-color: rgb(177, 247, 224);
+  float: right;
+  margin-right: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+h1 {
+  margin-top: 1rem;
+}

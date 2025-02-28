@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YOUTUBE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="youtube.css" />
+  </head>
+  <body>
+    <aside>
+      <ul class="sidebar">
+        <li>
+          <a href="#" class="icon-link">
+            <i class="fas fa-home icon"></i>
+            <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="icon-link">
+            <i class="fas fa-play icon"></i>
+            <span>Shorts</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="icon-link">
+            <i class="fas fa-rectangle-list icon"></i>
+            <span>Subscriptions</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="icon-link">
+            <i class="fas fa-book icon"></i>
+            <span>Library</span>
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <header>
+      <div class="header-content">
+        <i class="fab fa-youtube youtube-icon"></i>
+        <h1>Youtube</h1>
+        <div class="search">
+          <input
+            type="text"
+            class="input-box"
+            id="box"
+            placeholder="Search something"
+          />
+          <button type="submit" onClick="handleclick()">Search</button>
+
+          <i class="fas fa-microphone mic-icon"></i>
+        </div>
+      </div>
+    </header>
+    <main id="main"></main>
+    <script src="youtube.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+body {
+    background-color: yellow;
+    padding: 1rem;
+}
+.card {
+    max-width: 400px;
+    background-color: khaki;
+    color: darkblue;
+    padding: 1rem;
+    border: 2px solid lightgrey;
+    border-radius: 1rem;
+    margin: 1rem auto;
+}
+img {
+    height: 125px;
+    display: block;
+    width: fit-content;
+    margin: auto;
+}

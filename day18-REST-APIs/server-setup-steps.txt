@@ -1,0 +1,10 @@
+1. open terminal in that folder - `npm init -y`
+2. install express - `npm i express`
+(optional) install nodemon as global dependency - `npm i -g nodemon`
+3. make js file (like app.js)
+4. require express 
+    `const express = require("express");`
+5. create a server using express
+    `const app = express()`
+6. listen the server on a port
+    `app.listen(1010, () => console.log('---- Server Started ----'))`

@@ -1,0 +1,14 @@
+[
+    {
+        "taskTitle": "UI implementation",
+        "workTitle": "Frontend",
+        "assignee": "Aditya",
+        "priority": "low"
+    },
+    {
+        "taskTitle": "APIs implementation",
+        "workTitle": "Backend",
+        "assignee": "Anurag",
+        "priority": "high"
+    }
+]

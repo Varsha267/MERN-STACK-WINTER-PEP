@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: azure;
+}
+
+.input {
+  padding: 5px;
+  width: 100%;
+  background-color: rgb(250, 241, 230);
+  border: 1px solid beige;
+}
+
+.taskinputname {
+  /* border: 1px solid black; */
+  box-shadow: 0px 0px 5px 0.1px rgb(180, 180, 180);
+  width: 30%;
+  margin: 20px auto;
+  background-color: aliceblue;
+  border-radius: 2rem;
+}
+
+.taskinput {
+  padding: 2rem 4.5rem 2rem 4.5rem;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 0.4rem;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: rgb(226, 246, 246);
+  /* border: 0.1px solid black; */
+  border: none;
+  border-radius: 0.2rem;
+  box-shadow: 0px 0px 2px 0.1px rgb(180, 180, 180);
+  cursor: pointer;
+}
+
+.selectinput {
+  padding: 5px;
+  background-color: rgb(250, 241, 230);
+  border: 1px solid beige;
+  margin-left: 20px;
+}
+
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,49 @@
+"REST API Architecture" :: "Representational State Transfer"
+* Client, Server
+* HTTP `Verbs`
+            : use HTTP verbs
+            : GET, POST, PUT, PATCH, DELETE
+
+* Resource-Based URL & Plural
+            : use `Nouns` (sangya) like "/vehicles", "/products", "/users"
+            : don't mention verbs (kriya) in url like "/findProducts", "searchUsers", "/getUsers"
+
+* Stateless 
+            : DON't
+                :: if user want to see data, "/articles"
+                :: for next page, "/articles/nextPage"
+                :: server will need to remember which page was user viewing
+
+            : DO
+                :: if user want to see data, "/articles?page=1"
+                :: for next page, "articles?page=2"
+                :: server does not remember anything
+
+* RESPONSE
+            : Send a JSON response (whenever possible, almost always)
+
+* HTTP "Status Codes"
+            : ~ 100 - 199 :: Informational Purpose
+
+            : * 200 - 299 :: Success
+                          :: 200 - OK
+                          :: 201 - created
+                          :: 204 - no content
+
+            : ~ 300 - 399 :: Re-direction
+                          :: 301 moved, 307 temporary, 308 permanent
+
+            : * 400 - 499 :: Client's mistake
+                          :: 400 - Bad Request
+                          :: 401 - unAuthorized
+                          :: 404 - Not Found
+
+            : * 500 - 599 :: Server's mistake
+                          :: 500 - Internal Server Error
+                          :: 501 - Not Implemented
+
+For Example:
+    * To make a task --> POST "/tasks"
+    * To get all the tasks --> GET "/tasks"
+    * To edit a task --> PUT or PATCH "/tasks"
+    * To delete a task --> DELETE "/tasks"
